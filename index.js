@@ -18,3 +18,7 @@ function reset(){
     saveEl.textContent = "Previous entries: "
     countEl.textContent = 0
 }
+
+window.increment = increment
+window.save = save
+window.reset = reset
